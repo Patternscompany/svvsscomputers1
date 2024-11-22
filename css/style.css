@@ -694,7 +694,7 @@ section.background_bg_bottom {
 }
 
 .dark_gray.white_fonts h2 {
-	color: #17a5e9 !important;
+	color: #EC8116 !important;
 }
 
 .dark_gray.light_silver_fonts h2 {
@@ -774,7 +774,7 @@ hr.dottad_border {
 	margin: 20px auto 0;
 	width: 80px;
 	height: 5px;
-	background: #17a5e9;
+	background: #EC8116;
 }
 
 .main_heading.text_align_left::after {
@@ -2177,7 +2177,7 @@ section.dottad_star_bg {
 
 .counter i {
 	font-size: 70px;
-	color: #17a5e9;
+	color: #EC8116;
 }
 
 .margin_bottom_30 {
@@ -2427,8 +2427,8 @@ span.skill {
 
 #accordion .panel.panel-default .panel-heading p a[aria-expanded="true"],
 #accordion .panel.panel-default:nth-child(1) .panel-heading p a {
-	background: #17a5e9;
-	border-color: #17a5e9;
+	background: #EC8116;
+	border-color: #EC8116;
 	color: #fff;
 }
 
@@ -2457,7 +2457,7 @@ span.skill {
 }
 
 #accordion .panel.panel-default .panel-heading p a[aria-expanded="false"] i {
-	color: #17a5e9 !important;
+	color: #EC8116 !important;
 }
 
 #accordion .panel.panel-default .panel-heading p a[aria-expanded="false"] i.fa-angle-down {
@@ -2497,7 +2497,7 @@ span.skill {
 
 #accordion .panel.panel-default .panel-heading p a>i {
 	font-size: 20px;
-	color: #17a5e9;
+	color: #EC8116;
 	margin: 0 10px 0 0;
 }
 
@@ -2570,7 +2570,7 @@ object-fit: contain;
 }
 
 .price_table_active .price_no {
-	color: #039ee3;
+	color: #EC8116;
 }
 
 .price_table_active {
@@ -2758,7 +2758,7 @@ object-fit: contain;
 .categary li:hover,
 .categary li:focus {
 	padding-left: 30px;
-	background: #039ee3;
+	background: #EC8116;
 }
 
 .categary li:hover a,
@@ -2778,7 +2778,7 @@ object-fit: contain;
 .tags a:hover,
 .tags a:focus {
 	color: #fff !important;
-	border: solid #17a5e9 1px !important;
+	border: solid #EC8116 1px !important;
 }
 
 .tags li {
@@ -2858,7 +2858,7 @@ object-fit: contain;
 	padding: 30px 0;
 	float: left;
 	width: 100%;
-	border-top: solid #039ee3 8px;
+	border-top: solid #EC8116 8px;
 }
 
 .blog_head {
@@ -2878,7 +2878,7 @@ object-fit: contain;
 .blog_feature_cantant li {
 	font-weight: 500;
 	font-size: 14px;
-	color: #039ee3;
+	color: #EC8116;
 	float: left;
 	margin-right: 15px;
 }
@@ -2889,7 +2889,7 @@ object-fit: contain;
 
 .blog_feature_cantant li a:hover,
 .blog_feature_cantant li a:focus {
-	color: #039ee3;
+	color: #EC8116;
 }
 
 .blog_feature_cantant p {
@@ -2909,7 +2909,7 @@ object-fit: contain;
 
 .read_more:hover,
 .read_more:focus {
-	color: #039ee3;
+	color: #EC8116;
 }
 
 .shr {
@@ -3125,7 +3125,7 @@ object-fit: contain;
 .product_list:hover,
 .product_list:focus {
 	box-shadow: 0 0 25px -17px #000;
-	border-bottom: solid #17a5e9 5px;
+	border-bottom: solid #EC8116 5px;
 }
 
 .product_img {
@@ -3745,8 +3745,8 @@ footer ul.social_icons {
 
 .team_blog_colum:hover,
 .team_blog_colum:focus {
-	background: #17a5e9;
-	border-color: #17a5e9;
+	background: #EC8116;
+	border-color: #EC8116;
 }
 
 .team_blog_colum:hover h4,
@@ -3769,8 +3769,8 @@ footer ul.social_icons {
 	font-size: 40px;
 	color: #fff;
 	transition: ease all 0.5s;
-	border: solid #17a5e9 2px;
-	background: #17a5e9;
+	border: solid #EC8116 2px;
+	background: #EC8116;
 }
 
 .service_blog_inner2 {
@@ -3780,9 +3780,9 @@ footer ul.social_icons {
 
 .service_blog_inner2:hover .icon,
 .service_blog_inner2:focus .icon {
-	border: solid #17a5e9 2px;
+	border: solid #EC8116 2px;
 	background: #fff;
-	color: #17a5e9;
+	color: #EC8116;
 }
 
 .topbar-hightlight a {
@@ -4024,7 +4024,7 @@ footer ul.social_icons {
 }
 
 .product_detail .tab_bar_section ul.nav.nav-tabs li a.active {
-	background: #039ee3;
+	background: #EC8116;
 	color: #fff;
 }
 
@@ -4289,7 +4289,7 @@ footer ul.social_icons {
 	height: 45px;
 	line-height: 45px;
 	margin: 33px 0 0 30px;
-	background: #039ee3;
+	background: #EC8116;
 	transition: ease all 0.5s;
 	border: none;
 	color: #fff;
@@ -4297,7 +4297,7 @@ footer ul.social_icons {
 }
 
 .shopping-cart .button {
-	background: #039ee3;
+	background: #EC8116;
 	color: #fff;
 }
 
@@ -4334,7 +4334,7 @@ footer ul.social_icons {
 .tab-info.coupon-section p a:hover,
 .tab-info.login-section p a:focus,
 .tab-info.coupon-section p a:focus {
-	color: #039ee3;
+	color: #EC8116;
 }
 
 .bt_main {
@@ -4350,7 +4350,7 @@ footer ul.social_icons {
 	border: none;
 	padding: 0 35px;
 	cursor: pointer;
-	background: #039ee3;
+	background: #EC8116;
 }
 
 .btn-login .bt_main {
@@ -4539,7 +4539,7 @@ footer ul.social_icons {
 }
 
 .adress_cont i {
-	color: #039ee3;
+	color: #EC8116;
 }
 
 .contant_form p {
