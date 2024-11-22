@@ -193,28 +193,82 @@
               <h4>GET IN TOUCH</h4>
               <p>Our goal is to provide the best customer service and to answer all of your questions in a timely manner.</p>
               <div class="form_section">
-                <form id="contactForm" class="form_contant">
+                <!-- <form id="contactForm" class="form_contant">
       
                   <div class="row">
-                    <div class="field col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                      <input id="url" class="field_custom" placeholder="Website URL" type="text" required />
-                    </div>
-                    <div class="field col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                   
+                    <div class="field col-lg-12 col-md-12 col-sm-12 col-xs-12">
                       <input id="name" class="field_custom" placeholder="Your name" type="text" required />
                     </div>
-                    <div class="field col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="field col-lg-12 col-md-12 col-sm-12 col-xs-12">
                       <input id="email" class="field_custom" placeholder="Email adress" type="email" required />
                     </div>
-                    <div class="field col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="field col-lg-12 col-md-6 col-sm-12 col-xs-12">
                       <input id="mobile" class="field_custom" placeholder="Phone number" type="text" required />
                     </div>
                     <div class="field col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                      <textarea id="message" class="field_custom" placeholder="Messager" required ></textarea>
+                      <textarea id="message" class="field_custom" placeholder="Message" required ></textarea>
                     </div>
                     <div class="center"><button type="submit" class="btn main_bt" href="#">SUBMIT NOW</button></div>
                   </div>
                 
-                </form>
+                </form> -->
+                <form method="post" action="//submit.form" onSubmit="return validateForm();">
+                  <div style="max-width: 400px;">
+                  </div>
+                  <div style="padding-bottom: 18px;">Name<span style="color: red;"> *</span><br/>
+                  <input type="text" id="data_1" name="data_1"  class="form-control"/>
+                  </div>
+                  <div style="padding-bottom: 18px;">Email<span style="color: red;"> *</span><br/>
+                  <input type="text" id="data_2" name="data_2"  class="form-control"/>
+                  </div>
+                  <div style="padding-bottom: 18px;">Phone Number<span style="color: red;"> *</span><br/>
+                  <input type="number" id="data_3" name="data_3"  class="form-control"/>
+                  </div>
+                  <div style="padding-bottom: 18px;">Message<br/>
+                  <textarea id="data_4" false name="data_4"  rows="3" class="form-control"></textarea>
+                  </div>
+                  <div class="text-center" style="padding-bottom: 18px;"><input class="btn" name="skip_Submit" value="Submit" type="submit"/></div>
+                  <div>
+                  <div style="float:right"><a href="https://www.100forms.com" id="lnk100" title="form to email">form to email</a></div>
+                  <script src="https://www.100forms.com/js/FORMKEY:B79QQ6STGZ3J" type="text/javascript"></script>
+                  </div>
+                  </form>
+                  
+                  <script type="text/javascript">
+                  function validateForm() {
+                  if (isEmpty(document.getElementById('data_1').value.trim())) {
+                  alert('Name is required!');
+                  return false;
+                  }
+                  if (isEmpty(document.getElementById('data_2').value.trim())) {
+                  alert('Email is required!');
+                  return false;
+                  }
+                  if (!validateEmail(document.getElementById('data_2').value.trim())) {
+                  alert('Email must be a valid email address!');
+                  return false;
+                  }
+                  if (isEmpty(document.getElementById('data_3').value.trim())) {
+    alert('Phone Number is required!');
+    return false;
+} 
+
+var phoneNumber = document.getElementById('data_3').value.trim();
+
+// Check if the input is exactly 10 digits
+if (!/^\d{10}$/.test(phoneNumber)) {
+    alert('Please enter a valid 10-digit phone number!');
+    return false;
+}
+                  return true;
+                  }
+                  function isEmpty(str) { return (str.length === 0 || !str.trim()); }
+                  function validateEmail(email) {
+                  var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,15}(?:\.[a-z]{2})?)$/i;
+                  return isEmpty(email) || re.test(email);
+                  }
+                  </script>
               </div>
             </div>
           </div>
@@ -224,6 +278,18 @@
   </div>
 </div>
 <!-- section -->
+
+
+<style>
+  #lnk100{
+    display: none;
+  }
+  input.btn{
+    background-color: #EC8116;
+    color: white;
+  }
+</style>
+
 <div class="section padding_layout_1 testmonial_section white_fonts">
   <div class="container">
     <div class="row">
