@@ -2568,7 +2568,24 @@ object-fit: contain;
 .price_table_active .price_table_inner {
 	margin: 0;
 }
+.whatsapp {
+	position: fixed;
+	right: 0;
+	/* bottom: 90px; */
+	top: 39%;
+	z-index: 999;
+	/* background-color: #; */
+  border-bottom: 2px solid #fff;
+  }
 
+  .whatsapp i {
+	font-size: 2.5rem;
+	padding: 10px;
+	color: #fff;
+	background-color: #000;
+  
+	/* border-radius: 50%; */
+  }
 .price_table_active .price_no {
 	color: #EC8116;
 }
